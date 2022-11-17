@@ -151,7 +151,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) { 
     .download_pdf_area {
         display: inherit;
     }
@@ -179,6 +179,7 @@
     .newletter_text h4 img {
         display: none;
     }
+
 }
 
 @media (max-width: 667px) {
