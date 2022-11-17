@@ -228,6 +228,7 @@
     .causes_heading_sec h2 {
         padding-top: 20px;
     }
+
 }
 
 @media (max-width: 480px) {
@@ -241,4 +242,11 @@
     }
 }
 
-@media (max-width: 361px) {}
+@media (max-width: 375px) {
+
+    .about_item{
+        margin-top: 20px;
+        margin-left: -35px;
+    }
+
+}
