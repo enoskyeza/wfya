@@ -2273,3 +2273,16 @@ textarea.form-control {
     border-radius:15px ;
     background: none;
   }
+
+.play-btn {
+    color: var(--main-color);
+}
+
+.play-btn p {
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.play-btn:hover {
+    color: var(--orange-color);
+  }

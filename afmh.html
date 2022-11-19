@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/animate.min.css" />
     <!-- Fontawesome css -->
     <link rel="stylesheet" href="assets/css/fontawesome.all.min.css" />
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <!-- owl.carousel css -->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
     <!-- owl.theme.default css -->
@@ -62,7 +64,8 @@
                     <div class="col-lg-6 col-md-6">
                         <ul class="topbar-list">
 
-                            <li><a href="tel:+256 783 044270"><i class="fa fa-phone"></i><span>+256 783 044270</span></a>
+                            <li><a href="tel:+256 783 044270"><i class="fa fa-phone"></i><span>+256 783
+                                        044270</span></a>
                             </li>
                             <li><a href="#!"><i class="fa fa-envelope"></i><span></span>info@wfya.com</a></li>
                             <li><a href="#!"><span>Faqs</span></a></li>
@@ -309,19 +312,57 @@
                             <h3>Mind Your Mind</h3>
                         </div>
                         <div class="about_area_para">
-                            <h5>All for Mental health is a multidisciplinary health professional student initiative that aims to counter the burden of mental health issues especially among youth and adolescents.</h5>
+                            <h5>All for Mental health is a multidisciplinary health professional student initiative that
+                                aims to counter the burden of mental health issues especially among youth and
+                                adolescents.</h5>
                             <p>
-                                <small>The project is implemented under Way forward Youth Africa. The project has a community of youth advocating for advancement in mental health of counter parts and community at large. Through extensively coordinated campaigns and discussions dubbed #mindyourmind, the project has taken a concerted effort to raise awareness of mental health issues in Uganda and Africa as a whole.</small> </p>
-                            <p> 
+                                <small>The project is implemented under Way forward Youth Africa. The project has a
+                                    community of youth advocating for advancement in mental health of counter parts and
+                                    community at large. Through extensively coordinated campaigns and discussions dubbed
+                                    #mindyourmind, the project has taken a concerted effort to raise awareness of mental
+                                    health issues in Uganda and Africa as a whole.</small>
+                            </p>
+                            <p>
                                 <small>
-                                Our goal as All for mental health is to reduce the burden of mental illness among youth that often manifests in the sky rocketing numbers of depression, anxiety, substance abuse as well as suicidality amongst people of this age group. Our journey on this quest started in July 2020 when we held our first activity that was an online mental health awareness that ensured that we reached out to 3 million people through the different social media platforms and our webinars. Our success as a young generation have largely come through partnerships with established entities that have supported us materially and technically. In this ever-changing world, innovation and technology should be at the heart of solving the problems we face in our day-to-day life so we always looking better and more efficient ways for how best we can solve the mental health debacle
-                            </small>     
+                                    Our goal as All for mental health is to reduce the burden of mental illness among
+                                    youth that often manifests in the sky rocketing numbers of depression, anxiety,
+                                    substance abuse as well as suicidality amongst people of this age group. Our journey
+                                    on this quest started in July 2020 when we held our first activity that was an
+                                    online mental health awareness that ensured that we reached out to 3 million people
+                                    through the different social media platforms and our webinars. Our success as a
+                                    young generation have largely come through partnerships with established entities
+                                    that have supported us materially and technically. In this ever-changing world,
+                                    innovation and technology should be at the heart of solving the problems we face in
+                                    our day-to-day life so we always looking better and more efficient ways for how best
+                                    we can solve the mental health debacle
+                                </small>
                             </p>
                         </div>
                         <div class="about_vedio_area">
-                            <!-- <a href="about.html" class="btn btn_theme btn_md">Learn more</a> -->
-                            <a href="https://twitter.com/i/status/1569226902753234944" class="vedio_btn popup-vimeo"><i
-                                    class="fa fa-play"></i>How we work</a>
+                            <button type="button" class="btn d-flex align-items-center play-btn" data-bs-toggle="modal"
+                                data-bs-target="#vidModal">
+                                <i class="bi bi-play-circle h1 me-2"></i>
+                                <p class="mb-2">Mental Health campaign</p>
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="vidModal" tabindex="-1" aria-labelledby="vidModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content" style="width: 800px;">
+                                        <div class="modal-body">
+                                            <video id="campaignVideo" width="752" height="400" controls>
+                                                <source src="assets/img/video/campaign.MP4" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                                onclick="document.getElementById('campaignVideo').pause();">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -337,7 +378,7 @@
                     <div class="section_heading">
                         <h3>Ready to help</h3>
                         <h2> We have team of
-                            volunteers to <span class="color_big_heading">reach out</span>  to.</h2>
+                            volunteers to <span class="color_big_heading">reach out</span> to.</h2>
                     </div>
                 </div>
             </div>
@@ -649,7 +690,8 @@
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <div class="footer_area_about">
                         <img src="assets/img/logo.png" alt="img">
-                        <p>Non-profit organisation aimed at empowering youth as well as promote healthcare in Uganda, Africa and the globe</p>
+                        <p>Non-profit organisation aimed at empowering youth as well as promote healthcare in Uganda,
+                            Africa and the globe</p>
                         <h6><strong>Address:</strong> P.O.Box #, Kampala, Uganda.</h6>
                         <h6><strong>Phone:</strong> <a href="tel:123-284-2554">+256 783 044270</a></h6>
                         <h6><strong>Email:</strong> <a href="mailto:info@example.com">info@wfya.com</a></h6>
@@ -689,7 +731,8 @@
                         <h3>Latest tweets</h3>
                         <div class="footer_twitter_area">
                             <a href="#!" class="footer_twit_title"><i class="fab fa-twitter"></i> #all4MentalHealth</a>
-                            <p>There is no health without mental health. We are youth seeking to spread mental health awareness to every corner of the earth.</p>
+                            <p>There is no health without mental health. We are youth seeking to spread mental health
+                                awareness to every corner of the earth.</p>
                             <a href="#!" class="footer_twit_two">twitter.com/i/#mindyourmind</a>
                             <h6>November 10, 2022 04:20 PM</h6>
                         </div>
