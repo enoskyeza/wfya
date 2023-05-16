@@ -54,9 +54,9 @@
     }
 
     .banner_one_text h1 {
-        font-size: 60px;
+        font-size: 40px;
         font-weight: 400;
-        line-height: 70px;
+        line-height: 50px;
     }
 
     .post_comment_img {
@@ -151,7 +151,7 @@
     }
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
     .download_pdf_area {
         display: inherit;
     }
